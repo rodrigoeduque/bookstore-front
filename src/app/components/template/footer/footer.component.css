@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+}
+.desenvolvido-por{
+    color: rgb(83, 42, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hearth{
+    color: red;
+}
+img {
+    height: 2.1rem;
+    padding-right: 1.5rem;
+}
