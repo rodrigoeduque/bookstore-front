@@ -11,10 +11,12 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
+import { MatTableModule } from "@angular/material/table";
 
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
 import { HomeComponent } from "./components/views/home/home.component";
+import { CategoriaComponent } from "./components/views/categoria/categoria.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { HomeComponent } from "./components/views/home/home.component";
     FooterComponent,
     NavComponent,
     HomeComponent,
+    CategoriaComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { HomeComponent } from "./components/views/home/home.component";
     MatListModule,
     MatIconModule,
     MatCardModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
