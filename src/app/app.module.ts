@@ -19,6 +19,7 @@ import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
 import { HomeComponent } from "./components/views/home/home.component";
 import { CategoriaComponent } from "./components/views/categoria/categoria.component";
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { CategoriaComponent } from "./components/views/categoria/categoria.compo
     NavComponent,
     HomeComponent,
     CategoriaComponent,
+    CategoriaCreateComponent,
   ],
   imports: [
     BrowserModule,
