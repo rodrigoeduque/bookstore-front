@@ -3,15 +3,33 @@
   margin: 1.4rem auto auto auto;
 }
 .title {
-    text-align: center;
-    margin-bottom: 3rem ;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .title h1 {
-    font-size: 2rem;
-    color: gray;
-    font-weight: 500;
+  font-size: 2rem;
+  color: gray;
+  font-weight: 500;
 }
 
-.table{
-    width: 100%;
+.table {
+  width: 100%;
+}
+.icon-edit {
+  padding-right: 2rem;
+}
+.icon-delete {
+  color: red;
+}
+.icon-books {
+    color: springgreen;
+}
+.buttons{
+    padding-bottom: 2rem;
+}
+i {
+  align-items: center;
+}
+.mat-header-acoes {
+  width: 5rem;
 }
