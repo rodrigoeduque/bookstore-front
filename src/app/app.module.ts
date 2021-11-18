@@ -1,25 +1,27 @@
 import { NgModule } from "@angular/core";
-import { BrowserModule } from "@angular/platform-browser";
 import { HttpClientModule } from "@angular/common/http";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app-routing.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HeaderComponent } from "./components/template/header/header.component";
 
-import { MatToolbarModule } from "@angular/material/toolbar";
-import { MatSidenavModule } from "@angular/material/sidenav";
+import { FormsModule } from "@angular/forms";
 import { MatListModule } from "@angular/material/list";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
+import { MatInputModule } from "@angular/material/input";
 import { MatTableModule } from "@angular/material/table";
 import { MatButtonModule } from "@angular/material/button";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatSidenavModule } from "@angular/material/sidenav";
 
+import { CategoriaCreateComponent } from "./components/views/categoria/categoria-create/categoria-create.component";
+import { CategoriaComponent } from "./components/views/categoria/categoria.component";
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
 import { HomeComponent } from "./components/views/home/home.component";
-import { CategoriaComponent } from "./components/views/categoria/categoria.component";
-import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { CategoriaCreateComponent } from './components/views/categoria/categoria
     MatTableModule,
     HttpClientModule,
     MatButtonModule,
+    FormsModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
